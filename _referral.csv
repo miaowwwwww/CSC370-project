@@ -1,0 +1,159 @@
+ReferralCaseID,ClientID,Date of Referral,Referral HealthCare Professional,Referral HA  ,Referral HA Hospital Site,"Referral Source (Acute care, Clinic, or Community health service)",Long Term (Y/N),Palliative (Y/N),Priority
+1,1,2022-03-22,Referrer1,VCHA,Three Bridges Community Health Centre,Community Health Service,Yes,No,
+2,2,2020-09-02,Referrer2,VCHA,Richmond Home Health,Community Health Service,Yes,No,
+3,3,2022-09-12,Referrer3,VCHA,Evergreen Community Health Centre,Community Health Service,No,No,
+4,4,2022-06-22,Referrer4,VCHA,Vancouver General Hospital,Acute care,No,No,Non-Priority 4-5 Days
+5,5,2022-06-10,Referrer5,PHC,St Paul's Hospital,Acute care,No,No,<24 Hours
+6,6,2022-09-14,Referrer4,VCHA,Vancouver General Hospital,Acute care,No,No,<24 Hours
+7,6,2022-09-19,Referrer6,VCHA,South Community Health Centre,Community Health Service,No,No,<24 Hours
+8,7,2022-08-09,Referrer7,VCHA,Robert and Lily Lee Community Health Centre,Community Health Service,No,No,
+9,8,2022-05-05,Referrer8,VCHA,Raven Song Community Health Centre,Community Health Service,Yes,No,
+10,9,2022-09-26,Referrer9,VCHA,Vancouver General Hospital,Acute care,No,No,Priority 1-3 Days
+11,10,2022-09-20,Referrer10,VCHA,Evergreen Community Health Centre,Community Health Service,No,Yes,Non-Priority 4-5 Days
+12,11,2021-06-14,Referrer12,VCHA,Raven Song Community Health Centre,Community Health Service,Yes,No,
+13,11,2022-07-11,Referrer11,VCHA,Raven Song Community Health Centre,Community Health Service,No,Yes,
+14,11,2022-09-13,Referrer11,VCHA,Raven Song Community Health Centre,Community Health Service,No,Yes,
+15,12,2022-08-24,Referrer13,VCHA,Pender Home Health,Community Health Service,No,No,
+16,13,2022-05-05,Referrer13,VCHA,Pender Home Health,Community Health Service,No,No,Priority 1-3 Days
+17,14,2022-09-02,Referrer14,VCHA,Evergreen Community Health Centre,Community Health Service,No,No,
+18,15,2022-09-07,Referrer15,VCHA,Home Vive Program,Community Health Service,No,Yes,<24 Hours
+19,16,2022-08-26,Referrer16,VCHA,Richmond Home Health,Community Health Service,No,No,
+20,17,2022-09-12,Referrer17,VCHA,UBC Hospital,Community Health Service,No,No,Non-Priority 4-5 Days
+21,18,2022-09-06,Referrer18,VCHA,Vancouver General Hospital,Acute care,No,No,Priority 1-3 Days
+22,18,2022-09-06,Referrer18,VCHA,Vancouver General Hospital,Community Health Service,No,No,Priority 1-3 Days
+23,19,2022-06-15,Referrer19,VCHA,Vancouver General Hospital,Community Health Service,No,No,Non-Priority 4-5 Days
+24,20,2022-09-20,Referrer20,VCHA,Vancouver General Hospital,Community Health Service,No,No,
+25,21,2022-03-28,Referrer21,VCHA,Three Bridges Community Health Centre,Community Health Service,No,No,
+26,21,2022-06-21,Referrer21,VCHA,Three Bridges Community Health Centre,Community Health Service,No,Yes,Non-Priority 4-5 Days
+27,22,2022-02-11,Referrer22,VCHA,Other,Community Health Service,No,No,<24 Hours
+28,22,2022-02-11,Referrer22,VCHA,Other,Community Health Service,Yes,No,
+29,23,2022-03-07,Referrer23,VCHA,Robert and Lily Lee Community,Community Health Service,No,Yes,Non-Priority 4-5 Days
+30,23,2022-05-25,Referrer24,VCHA,Robert and Lily Lee Community Health Centre,Community Health Service,No,Yes,
+31,23,2022-08-17,Referrer18,VCHA,Vancouver General Hospital,Acute care,No,No,<24 Hours
+32,24,2022-09-19,Referrer25,VCHA,South Community Health Centre,Community Health Service,No,Yes,
+33,25,2021-03-04,Referrer26,VCHA,South Community Health Centre,Community Health Service,Yes,No,
+34,26,2022-06-17,Referrer28,VCHA,Pacific Spirit Community Health Centre,Acute care,No,No,Non-Priority 4-5 Days
+35,26,2022-09-23,Referrer27,VCHA,Three Bridges Community Health Centre,Community Health Service,No,No,<24 Hours
+36,27,2022-09-28,Referrer29,VCHA,Three Bridges Community Health Centre,Community Health Service,No,No,
+37,28,2022-06-15,Referrer30,VCHA,Vancouver General Hospital,Acute care,No,No,Priority 1-3 Days
+38,29,2022-06-10,Referrer31,FHA,Burnaby Hospital,Acute care,No,No,Priority 1-3 Days
+39,30,2019-10-02,Referrer32,VCHA,Vancouver General Hospital,Acute care,Yes,No,<24 Hours
+40,31,2022-03-18,Referrer16,VCHA,South Community Health Centre,Community Health Service,No,No,
+41,32,2022-03-23,Referrer14,VCHA,Evergreen Community Health Centre,Community Health Service,Yes,No,
+42,33,2022-09-13,Referrer33,VCHA,Pacific Spirit Community Health Centre,Community Health Service,Yes,No,
+43,34,2020-10-23,Referrer34,VCHA,Evergreen Community Health Centre,Community Health Service,Yes,No,
+44,35,2022-09-15,Referrer35,VCHA,Richmond Home Health,Community Health Service,No,No,
+45,36,2022-09-20,Referrer36,VCHA,Evergreen Community Health Centre,Community Health Service,No,No,
+46,37,2022-08-03,Referrer37,VCHA,Three Bridges Community Health Centre,Community Health Service,No,No,
+47,38,2022-09-27,Referrer38,VCHA,Raven Song Community Health Centre,Community Health Service,No,No,Non-Priority 4-5 Days
+48,39,2022-08-15,Referrer39,VCHA,Evergreen Community Health Centre,Community Health Service,No,No,
+49,40,2022-06-15,Referrer3,VCHA,Evergreen Community Health Centre,Community Health Service,No,No,Priority 1-3 Days
+50,41,2022-09-02,Referrer40,VCHA,Three Bridges Community Health Centre,Community Health Service,No,No,
+51,42,2022-05-20,Referrer41,VCHA,Three Bridges Community Health Centre,Community Health Service,No,No,
+52,43,2022-01-31,Referrer38,VCHA,Raven Song Community Health Centre,Community Health Service,Yes,No,
+53,44,2022-08-25,Referrer13,VCHA,Pender Home Health,Community Health Service,No,No,Priority 1-3 Days
+54,45,2022-06-24,Referrer28,VCHA,Pacific Spirit Community Health Centre,Community Health Service,No,No,Priority 1-3 Days
+55,45,2022-06-24,Referrer28,VCHA,Pacific Spirit Community Health Centre,Community Health Service,,Yes,Priority 1-3 Days
+56,46,2022-07-18,Referrer16,VCH,Richmond Home Health,Community Health Service,No,No,
+57,46,2022-07-18,Referrer16,VCHA,Richmond Home Health,Community Health Service,No,No,
+58,47,2022-09-06,Referrer42,VCHA,Vancouver General Hospital,Acute care,No,No,<24 Hours
+59,48,2022-09-23,Referrer43,VCHA,Pacific Spirit Community Health Centre,Community Health Service,No,Yes,<24 Hours
+60,49,2022-02-08,Referrer11,VCHA,Raven Song Community Health Centre,Community Health Service,Yes,No,
+61,50,2022-09-14,Referrer44,VCHA,South Community Health Centre,Community Health Service,No,Yes,Non-Priority 4-5 Days
+62,51,2022-03-01,Referrer45,VCHA,Pacific Spirit Community Health Centre,Community Health Service,No,No,Non-Priority 4-5 Days
+63,52,2022-09-08,Referrer46,VCHA,Pender Home Health,Community Health Service,No,No,Priority 1-3 Days
+64,53,2022-02-17,Referrer47,VCHA,Pender Home Health,Community Health Service,No,No,
+65,54,2022-09-21,Referrer48,VCHA,Royal Columbian Hospital,Acute care,No,No,Non-Priority 4-5 Days
+66,55,2022-06-14,Referrer49,VCHA,Vancouver General Hospital,Acute care,No,No,<24 Hours
+67,56,2022-06-14,Referrer50,VCHA,Pacific Spirit Community Health Centre,Community Health Service,No,No,
+68,57,2022-05-11,Referrer51,VCHA,Vancouver General Hospital,Acute care,No,No,Non-Priority 4-5 Days
+69,58,2022-09-02,Referrer52,VCHA,Vancouver General Hospital,Acute care,No,Yes,<24 Hours
+70,59,2022-07-13,Referrer38,VCHA,Raven Song Community Health Centre,Community Health Service,No,Yes,
+71,60,2022-09-12,Referrer4,VCHA,Vancouver General Hospital,Acute care,No,Yes,Priority 1-3 Days
+72,61,2022-07-12,Referrer28,VCHA,Pacific Spirit Community Health Centre,Community Health Service,No,No,
+73,62,2021-02-18,Referrer53,VCHA,Richmond Home Health,Community Health Service,Yes,No,
+74,63,2022-09-26,Referrer54,VCHA,South Community Health Centre,Community Health Service,No,No,
+75,64,2022-07-13,Referrer18,VCHA,Vancouver General Hospital,Acute care,No,Yes,Non-Priority 4-5 Days
+76,65,2022-09-22,Referrer55,VCHA,Pacific Spirit Community Health Centre,Community Health Service,No,No,Non-Priority 4-5 Days
+77,66,2022-09-21,Referrer56,VCHA,Vancouver General Hospital,Acute care,No,Yes,Priority 1-3 Days
+78,67,2022-09-12,Referrer57,VCHA,GF Strong Community Health Centre,Community Health Service,No,No,<24 Hours
+79,67,2022-09-26,Referrer57,VCHA,GF Strong Community Health Centre,Community Health Service,No,No,Priority 1-3 Days
+80,68,2022-09-06,Referrer50,VCHA,Pacific Spirit Community Health Centre,Community Health Service,No,No,Priority 1-3 Days
+81,68,2022-09-06,Referrer58,VCHA,Pacific Spirit Community Health Centre,Community Health Service,No,No,Non-Priority 4-5 Days
+82,69,2022-03-31,Referrer13,VCHA,Pender Home Health,Community Health Service,No,No,Priority 1-3 Days
+83,70,2022-09-08,Referrer15,VCHA,Home Vive Program,Community Health Service,No,Yes,Priority 1-3 Days
+84,71,2022-09-14,Referrer59,VCHA,Richmond Hospital,Acute care,No,No,<24 Hours
+85,72,2022-09-27,Referrer60,VCHA,Richmond Home Health,Community Health Service,Yes,No,
+86,73,2022-07-13,Referrer57,VCHA,GF Strong Community Health Centre,Community Health Service,No,No,<24 Hours
+87,74,2022-09-12,Referrer61,VCHA,Evergreen Community Health Centre,Community Health Service,Yes,No,
+88,75,2022-03-01,Referrer62,VCHA,Evergreen Community Health Centre,Community Health Service,Yes,No,
+89,76,2022-03-18,Referrer63,VCHA,Evergreen Community Health Centre,Community Health Service,Yes,No,Priority 1-3 Days
+90,77,2022-09-06,Referrer64,VCHA,Evergreen Community Health Centre,Community Health Service,Yes,Yes,<24 Hours
+91,78,2021-10-22,Referrer65,VCHA,Evergreen Community Health Centre,Community Health Service,Yes,No,
+92,79,2022-09-08,Referrer66,VCHA,Evergreen Community Health Centre,Community Health Service,No,No,<24 Hours
+93,80,2022-03-22,Referrer67,VCHA,Pacific Spirit Community Health Centre,Community Health Service,No,Yes,Priority 1-3 Days
+94,81,2022-09-09,Referrer68,VCHA,Vancouver General Hospital,Acute care,No,Yes,<24 Hours
+95,82,2022-04-01,Referrer14,VCHA,Evergreen Community Health Centre,Community Health Service,Yes,No,
+96,83,2022-07-28,Referrer63,VCHA,Evergreen Community Health Centre,Community Health Service,No,No,<24 Hours
+97,83,2022-08-18,Referrer69,FHA,Burnaby Hospital,Acute care,No,Yes,Priority 1-3 Days
+98,84,2022-08-26,Referrer70,VCHA,Burnaby Hospital,Acute care,No,No,Priority 1-3 Days
+99,85,2022-07-19,Referrer57,VCHA,GF Strong Community Health Centre,Community Health Service,No,No,
+100,86,2022-09-20,Referrer71,VCHA,Evergreen Community Health Centre,Community Health Service,No,No,<24 Hours
+101,87,2022-09-13,Referrer57,VCHA,GF Strong Community Health Centre,Community Health Service,No,No,<24 Hours
+102,88,2022-07-20,Referrer72,VCHA,UBC Hospital,Acute care,No,No,Priority 1-3 Days
+103,89,2021-04-16,Referrer40,VCHA,Three Bridges Community Health Centre,Community Health Service,Yes,No,
+104,90,2022-09-11,Referrer73,VCHA,Evergreen Community Health Centre,Community Health Service,Yes,No,
+105,91,2022-09-28,Referrer74,VCHA,Evergreen Community Health Centre,Community Health Service,No,No,Priority 1-3 Days
+106,92,2022-08-11,Referrer75,VCHA,South Community Health Centre,Community Health Service,No,No,
+107,93,2021-05-13,Referrer76,VCHA,Raven Song Community Health Centre,Community Health Service,Yes,Yes,
+108,94,2022-09-13,Referrer74,VCHA,Evergreen Community Health Centre,Community Health Service,No,No,Priority 1-3 Days
+109,95,2022-06-15,Referrer77,VCHA,Richmond Home Health,Community Health Service,No,No,
+110,96,2022-09-01,Referrer42,VCHA,Vancouver General Hospital,Acute care,No,No,<24 Hours
+111,97,2022-08-30,Referrer78,VCHA,Vancouver General Hospital,Acute care,No,No,Priority 1-3 Days
+112,98,2022-06-24,Referrer79,PHC,St Paul's Hospital,Acute care,No,No,<24 Hours
+113,99,2022-09-27,Referrer80,VCHA,Vancouver General Hospital,Acute care,No,No,<24 Hours
+114,100,2022-09-22,Referrer81,VCHA,South Community Health Centre,Community Health Service,No,No,Priority 1-3 Days
+115,101,2020-01-09,Referrer82,VCHA,South Community Health Centre,Community Health Service,Yes,No,
+116,102,2022-06-30,Referrer80,VCHA,Vancouver General Hospital,Acute care,No,Yes,<24 Hours
+117,102,2022-07-11,Referrer14,VCHA,Evergreen Community Health Centre,Community Health Service,No,Yes,Priority 1-3 Days
+118,103,2022-03-28,Referrer55,VCHA,Pacific Spirit Community Health Centre,Community Health Service,No,No,
+119,104,2022-06-30,Referrer83,VCHA,Pacific Spirit Community Health Centre,Community Health Service,Yes,No,
+120,105,2022-09-23,Referrer42,VCHA,UBC Hospital,Acute care,No,No,<24 Hours
+121,106,2022-09-09,Referrer45,VCHA,Pacific Spirit Community Health Centre,Community Health Service,No,No,Priority 1-3 Days
+122,106,2022-09-12,Referrer84,VCHA,Pacific Spirit Community Health Centre,Community Health Service,No,No,Priority 1-3 Days
+123,107,2022-09-16,Referrer37,VCHA,Three Bridges Community Health Centre,Community Health Service,No,No,
+124,108,2020-03-05,Referrer85,VCHA,Central Community Health Centre,Community Health Service,Yes,No,
+125,109,2022-09-19,Referrer57,VCHA,GF Strong Community Health Centre,Community Health Service,No,No,
+126,110,2022-09-16,Referrer86,VCHA,Robert and Lily Lee Community Health Centre,Community Health Service,No,No,
+127,111,2022-06-23,Referrer87,VCHA,GF Strong Community Health Centre,Community Health Service,No,No,Priority 1-3 Days
+128,112,2022-05-31,Referrer88,PHC,St Paul's Hospital,Acute care,No,No,<24 Hours
+129,113,2020-12-16,Referrer89,VCHA,South Community Health Centre,Community Health Service,Yes,No,
+130,114,2022-05-27,Referrer39,VCHA,Evergreen Community Health Centre,Community Health Service,Yes,No,
+131,115,2022-03-15,Referrer38,VCHA,Raven Song Community Health Centre,Community Health Service,No,Yes,
+132,115,2022-03-15,Referrer38,VCHA,Raven Song Community Health Centre,Community Health Service,Yes,Yes,
+133,116,2022-07-20,Referrer90,VCHA,South Community Health Centre,Community Health Service,No,Yes,
+134,117,2020-07-24,Referrer2,VCHA,Richmond Home Health,Community Health Service,Yes,No,
+135,118,2022-09-01,Referrer91,VCHA,Three Bridges Community Health Centre,Community Health Service,No,No,Priority 1-3 Days
+136,119,2022-08-19,Referrer92,VCHA,North Shore Community Health Centre,Community Health Service,No,No,Priority 1-3 Days
+137,119,2022-09-15,Referrer92,VCHA,North Shore Community Health Centre,Community Health Service,No,No,
+138,120,2022-06-17,Referrer55,VCHA,Pacific Spirit Community Health Centre,Community Health Service,No,No,
+139,121,2022-06-27,Referrer93,VCHA,Richmond Hospital,Acute care,No,No,Priority 1-3 Days
+140,122,2021-08-17,Referrer15,VCHA,Home Vive Program,Community Health Service,Yes,No,
+141,123,2022-06-02,Referrer41,VCHA,Three Bridges Community Health Centre,Community Health Service,No,No,Non-Priority 4-5 Days
+142,123,2022-06-10,Referrer41,VCHA,Three Bridges Community Health Centre,Community Health Service,No,No,Priority 1-3 Days
+143,124,2022-06-28,Referrer15,VCHA,Home Vive Program,Community Health Service,Yes,No,<24 Hours
+144,124,2022-09-16,Referrer15,VCHA,Home Vive Program,Community Health Service,Yes,No,
+145,125,2022-09-28,Referrer94,VCHA,GF Strong Community Health Centre,Community Health Service,No,No,Non-Priority 4-5 Days
+146,126,2022-09-21,Referrer95,VCHA,Robert and Lily Lee Community Health Centre,Community Health Service,No,No,Priority 1-3 Days
+147,126,2022-09-23,Referrer42,VCHA,UBC Hospital,Acute care,No,No,<24 Hours
+148,127,2022-09-09,Referrer96,VCHA,Evergreen Community Health Centre,Community Health Service,Yes,No,
+149,128,2022-09-19,Referrer97,VCHA,Vancouver General Hospital,Acute care,No,No,Priority 1-3 Days
+150,129,2022-03-22,Referrer98,PHC,St Paul's Hospital,Community Health Service,No,No,
+151,130,2022-09-20,Referrer57,VCHA,GF Strong Community Health Centre,Community Health Service,No,No,
+152,131,2022-09-29,Referrer99,VCHA,Central Community Health Centre,Community Health Service,No,No,
+153,132,2022-09-23,Referrer27,VCHA,Three Bridges Community Health Centre,Community Health Service,No,No,<24 Hours
+154,133,2022-09-12,Referrer100,VCHA,Richmond Home Health,Community Health Service,No,No,
+155,134,2022-09-26,Referrer31,FHA,Burnaby Hospital,Acute care,No,No,Priority 1-3 Days
+156,135,2022-07-04,Referrer101,VCHA,GF Strong Community Health Centre,Community Health Service,No,No,Non-Priority 4-5 Days
+157,136,2022-09-07,Referrer32,VCHA,Vancouver General Hospital,Acute care,No,No,Non-Priority 4-5 Days
+158,137,2022-09-22,Referrer102,FHA,Burnaby Hospital,Acute care,No,No,Priority 1-3 Days

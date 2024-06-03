@@ -1,0 +1,77 @@
+EquipmentID,Equipment Cat,Equipment Description,InstallationRate
+1,Walking Aides,4 Wheeled Walker,50
+2,Walking Aides,5 Wheeled Walker Bariatric,50
+3,Wheelchair,Air Cushion,0
+4,Wheelchair,Air/foam cushion,15
+5,Wheelchair,Amputee Board,15
+6,Walking Aides,Axilla,15
+7,Walking Aides,Axilla Bariatric,15
+8,Walking Aides,Axilla Pediatric,15
+9,Beds/Mattresses,Bariatric Bed,50
+10,Patient Lifts/ Installed Mobility Aides,Bariatric Free Standing Ceiling Lift and Track,50
+11,Bathroom,Bath board,15
+12,Bathroom,Bath Chair,15
+13,Bathroom,Bath Transfer Bench,15
+14,Bathroom,Bathtub Safety Rail,15
+15,Positioning/Transfer Aides,Bed Assist Handle,15
+16,Other,Bed cradle,15
+17,Beds/Mattresses,Bed rails,15
+18,Walking Aides,Cane,15
+19,Bathroom,Commode - Bariatric,50
+20,Bathroom,Commode - shower,50
+21,Bathroom,Commode - stationary,50
+22,Bathroom,Commode - Tilt in Space,15
+23,Bathroom,Commode - wheeled,15
+24,Bathroom,Commode - wheeled,15
+25,Walking Aides,Crutches,0
+26,Wheelchair,Cushion FOAM,0
+27,Patient Lifts/ Installed Mobility Aides,Floor to Ceiling Poles,50
+28,Walking Aides,Forearm,0
+29,Walking Aides,Forearm cane (gutter crutch),0
+30,Beds/Mattresses,Full (full rails not available in Bariatric),0
+31,WALKING AIDS,Gutter attachement for standard wheeled walker,0
+32,Walking Aides,Gutter attachment,0
+33,Wheelchair,Foam/Gel Cushion,0
+34,Beds/Mattresses,Hospital Bed,158
+35,Patient Lifts/ Installed Mobility Aides,Floor Lift,50
+36,Beds/Mattresses,Level Pads,0
+37,Wheelchair,Lightweight Wheelchair adj,0
+38,Wheelchair,Custom Manual Wheelchair,0
+39,Beds/Mattresses,Mattress,0
+40,Beds/Mattresses,"Mattress -Active, Powered",0
+41,Beds/Mattresses,Mattress Reactive Non-Powered Air,0
+42,Beds/Mattresses,Mattress Reactive Non-Powered Gel,0
+43,Beds/Mattresses,Mattress Reactive Powered Low Air Loss,0
+44,Beds/Mattresses,Mattress T-style w/1 roho section& 1 Level pad,0
+45,Patient Lifts/ Installed Mobility Aides,Non Mechanical sit to stand lift,75
+46,OTHER,OTHER,0
+47,Bedroom Safety,Overbed Tables,0
+48,Patient Lifts/ Installed Mobility Aides,Patient lift slings - Ceiling Track Lift,0
+49,Patient Lifts/ Installed Mobility Aides,Patient lift slings - Floor Lift,50
+50,Patient Lifts/ Installed Mobility Aides,Patient lift slings - Sit to stand lift,50
+51,Wheelchair,Pediatric Wheelchair,50
+52,Beds/Mattresses,Pressure reduction overlay,0
+53,Walking Aides,Quad Cane,0
+54,Bathroom,Raised Toilet Seat - Elongated,0
+55,Bathroom,Raised Toilet Seat Round - No arms,0
+56,Bathroom,Raised Toilet Seat Round - with arms,0
+57,Bathroom,"Raised Toilet Seat, Round (Clamp on)",0
+58,Wheelchair,Reclining (with headrest) Wheelchair,0
+59,Beds/Mattresses,Roho Mattress Section - each,78
+60,Patient Lifts/ Installed Mobility Aides,Mechanical Sit to Stand Lift,75
+61,Walking Aides,Standard Walker,0
+62,Patient Lifts/ Installed Mobility Aides,Threshold Ramp,0
+63,Wheelchair,Tilt in space Wheelchair,78
+64,Bathroom,Toilet Safety Frame (attachable),15
+65,Positioning/Transfer Aides,Transfer Board,50
+66,Wheelchair,Transport Wheelchair,50
+67,Positioning/Transfer Aides,Trapeze,50
+68,Walking Aides,Walker sidestepper / hemi-walker,15
+69,Wheelchair,Wheelchair Backrest - Specialty,15
+70,Wheelchair,Wheelchair Calf Panel,15
+71,Wheelchair,Wheelchair Elevating Legs - each,15
+72,Wheelchair,Wheelchair Headrest,15
+73,Wheelchair,Wheelchair Seatbelt,15
+74,Positioning/Transfer Aides,Ceiling Track Lift,75
+75,Patient Lifts/ Installed Mobility Aides,Mechanical Lift,75
+76,Patient Lifts/ Installed Mobility Aides,Patient lift slings - Mechanical Lift,50
