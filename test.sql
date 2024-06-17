@@ -1,31 +1,33 @@
-SHOW DATABASES;
 
-use 370PROJECT25A;
+#referer - site table
+SELECT DISTINCT ReferralHealthCareProfessional
+              ,ReferralHealthAuthorityHospitalSite
+FROM referral
+GROUP BY referral.ReferralCaseID;
 
-DROP TABLE IF EXISTS Patient;
-CREATE TABLE Patient (PatientID int PRIMARY KEY
-                    ,FirstName varchar(255) NOT NULL
-                    ,LastName varchar(255) NOT NULL
-                    ,PatientHealthAuthority varchar(255) NOT NULL
-                    ,PatientPostalCode varchar(255) NOT NULL
-                    ,PatientCity varchar(255) NOT NULL
+#site - HA, source table
+SELECT DISTINCT ReferralHealthAuthorityHospitalSite
+              ,ReferralHealthAuthority
+              ,ReferralSource
+FROM referral
+GROUP BY referral.ReferralCaseID;
+
+DROP TABLE IF EXISTS hasite;
+CREATE TABLE DeliveryRate (DeliveryFeeID int PRIMARY KEY
+    ,EquipmentID int
+    ,DeliveryZone int
+    ,DeliveryRate FLOAT
 );
 
+#site - HA, source table
 
-SHOW TABLE STATUS ;
+CREATE TABLE HealthAuthoritySite AS
+SELECT DISTINCT ReferralHealthAuthorityHospitalSite
+              ,ReferralHealthAuthority
+              ,ReferralSource
+FROM referral
+GROUP BY referral.ReferralCaseID
+ORDER BY ReferralSource
+       ,ReferralHealthAuthorityHospitalSite
 
 
-LOAD DATA LOCAL INFILE 'C:/Users/leodo/Desktop/2024summer/csc370/Project/CSC370-project/patient.csv'
-    INTO TABLE Patient
-    FIELDS TERMINATED BY ','
-    ENCLOSED BY '"'
-    LINES TERMINATED BY '\r\n'
-    IGNORE 1 LINES;
-SHOW VARIABLES LIKE 'local_infile';
-
-SELECT * FROM Patient LIMIT 5;
-SELECT * FROM Equipment LIMIT 5;
-SELECT * FROM Referral LIMIT 5;
-SELECT * FROM Rental LIMIT 5;
-SELECT * FROM EquipmentRentalRate LIMIT 5;
-SELECT * FROM DeliveryRate LIMIT 5;

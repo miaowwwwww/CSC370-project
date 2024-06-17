@@ -1,7 +1,7 @@
 use 370PROJECT25A;
 
-SELECT COUNT(DISTINCT CONCAT(FirstName,LastName))
-FROM patient;
+
+
 
 SELECT COUNT(DISTINCT PatientID)
 FROM patient;

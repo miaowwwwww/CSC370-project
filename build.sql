@@ -2,9 +2,11 @@
 Build Code for CSC370 Project
 Updated on 2nd June
 Leo Dong
+mysql --local-infile=1 -u root -p
 */
+SET GLOBAL local_infile=ON;
 
-CREATE DATABASE 370PROJECT25A;
+#CREATE DATABASE 370PROJECT25A;
 
 use 370PROJECT25A;
 
@@ -16,7 +18,7 @@ CREATE TABLE Patient (PatientID int PRIMARY KEY
                     ,PatientPostalCode varchar(255)
                     ,PatientCity varchar(255)
 );
-LOAD DATA LOCAL INFILE 'C:/Users/leodo/Desktop/2024summer/csc370/Project/CSC370-project/_patient.csv'
+LOAD DATA LOCAL INFILE './CSC370-project/_patient.csv'
     INTO TABLE Patient
     FIELDS TERMINATED BY ','
     ENCLOSED BY '"'
@@ -29,7 +31,7 @@ CREATE TABLE Equipment (EquipmentID int PRIMARY KEY
                        ,EquipmentDescription varchar(255)
                        ,InstallationRate int
 );
-LOAD DATA LOCAL INFILE 'C:/Users/leodo/Desktop/2024summer/csc370/Project/CSC370-project/_equipment.csv'
+LOAD DATA LOCAL INFILE './CSC370-project/_equipment.csv'
     INTO TABLE Equipment
     FIELDS TERMINATED BY ','
     ENCLOSED BY '"'
@@ -48,7 +50,7 @@ CREATE TABLE Referral (ReferralCaseID int PRIMARY KEY
                       ,Palliative bool
                       ,Priority varchar(255)
 );
-LOAD DATA LOCAL INFILE 'C:/Users/leodo/Desktop/2024summer/csc370/Project/CSC370-project/_referral.csv'
+LOAD DATA LOCAL INFILE './CSC370-project/_referral.csv'
     INTO TABLE Referral
     FIELDS TERMINATED BY ','
     ENCLOSED BY '"'
@@ -69,8 +71,9 @@ CREATE TABLE Rental (RentalID int PRIMARY KEY
                     ,IsInstallation bool
                     ,DeliveryZone int
                     ,OverdueActionTaken int
+                    ,UnitCount int
 );
-LOAD DATA LOCAL INFILE 'C:/Users/leodo/Desktop/2024summer/csc370/Project/CSC370-project/_rental.csv'
+LOAD DATA LOCAL INFILE './CSC370-project/_rental.csv'
     INTO TABLE Rental
     FIELDS TERMINATED BY ','
     ENCLOSED BY '"'
@@ -83,7 +86,7 @@ CREATE TABLE EquipmentRentalRate (RentalRateID int PRIMARY KEY
                                  ,PaymentFrequency varchar(255)
                                  ,RentalRate FLOAT
 );
-LOAD DATA LOCAL INFILE 'C:/Users/leodo/Desktop/2024summer/csc370/Project/CSC370-project/_equipmentrentalrate.csv'
+LOAD DATA LOCAL INFILE './CSC370-project/_equipmentrentalrate.csv'
     INTO TABLE EquipmentRentalRate
     FIELDS TERMINATED BY ','
     ENCLOSED BY '"'
@@ -96,7 +99,7 @@ CREATE TABLE DeliveryRate (DeliveryFeeID int PRIMARY KEY
                        ,DeliveryZone int
                        ,DeliveryRate FLOAT
 );
-LOAD DATA LOCAL INFILE 'C:/Users/leodo/Desktop/2024summer/csc370/Project/CSC370-project/_deliveryrate.csv'
+LOAD DATA LOCAL INFILE './CSC370-project/_deliveryrate.csv'
     INTO TABLE DeliveryRate
     FIELDS TERMINATED BY ','
     ENCLOSED BY '"'
