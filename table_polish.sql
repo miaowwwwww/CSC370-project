@@ -24,7 +24,6 @@ WHERE ReferralHealthAuthorityHospitalSite NOT LIKE '%Hospital%';
 
 /*
 referral data
-
 */
 
 #referrer - site table
